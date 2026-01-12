@@ -19,7 +19,9 @@
     "clean": "rimraf dist .turbo node_modules"
   },
   "dependencies": {
-    "@repo/ui": "workspace:*",
+    "@repo/design-system": "workspace:*",
+    "@repo/ui-core": "workspace:*",
+    "@repo/ui-vue": "workspace:*",
     "phaser": "^3.90.0",
     "pinia": "^3.0.4",
     "vue": "^3.5.26",
